@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    9ee31138b254368e7d1503f1e7622a7fa124b539f0c989c1ef5a7a1bb9f2d026  lytix-1.6.0-win-unsigned.tar.gz
-    f2f4b72bfa9835163e96d4387b89bb565b564ac02961738d4b1310b909c0064c  lytix-1.6.0-win32-debug.zip
-    90790080aa89692e8c252506dad62bb8272522c55b26e19a03dfb15ac86384fd  lytix-1.6.0-win32-setup-unsigned.exe
-    e457d9d24b43b18b4e46e0d17b13dd7466cf1a3704e00869f053fcc52e02a636  lytix-1.6.0-win32.zip
-    a824a924146eafaeff1af9e91b809a059d8adc92762d7746730e3bb9be69d596  lytix-1.6.0-win64-debug.zip
-    d54cc19802ef94783e8c2b8535ac64a8034cbd2ce0c38f6d0b67bfda7f368f0b  lytix-1.6.0-win64-setup-unsigned.exe
-    f3fa8e0605c320e0d743790a9e1d28427872470835ff7139d347f6193135b960  lytix-1.6.0-win64.zip
-    9c458a876550e576396a9229e40c410bca83bfd874f2511ff56d3f176b0d87c0  src/lytix-1.6.0.tar.gz
+    688190b4381ac8f3fa65fd51621d7eeb0f8657845051484b1a138c54da58808d  lytix-1.6.0-win-unsigned.tar.gz
+    aae591091cfbe7695109e68d00d871552adc62bb0527946d02110976139c447d  lytix-1.6.0-win32-debug.zip
+    d1ffce3c4bc38bc05cff807128b41e31ada8b2741002a3a4ee66018d9ae8e8ba  lytix-1.6.0-win32-setup-unsigned.exe
+    c9da7376677cfd0125b1da6c0e32a9ce25afaa541f88ec618c6e68d937bfe3fd  lytix-1.6.0-win32.zip
+    c516511d05264b1f4bddfa187858edab27f9f7c492b27e245fd12766417640d1  lytix-1.6.0-win64-debug.zip
+    43342dbe7b7d58975fe41f9bdda1b8a50e784f32a6d331e306f9247b97235aff  lytix-1.6.0-win64-setup-unsigned.exe
+    aa09ff0add72b70183bbec7299b3c8f9854df07f91940697b32b0407753caa32  lytix-1.6.0-win64.zip
+    acb61c6e4aadde708f70a5659eddd14f9d02b97d6ff49ccc18bc2a7525397dd7  src/lytix-1.6.0.tar.gz
 - in_manifest: |-
     567b0fd5eaed6d0e63dbc4d9db01a060fa6a153bbfbad80b67488caecec34bd4  lytix-win-1.6.0-desc.yml
-    git:7c5075169be596b9b0578510142bfb6da91d4049 lytix
+    git:d5c117a5505441a32b06d1f33f7460716b717419 lytix
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -327,7 +327,7 @@
       edd482e586af852b92a1a26c0141fd4dd8959a0e59ce414f8a3ce360d7c4ef36  libsqlite3-0_3.8.2-1ubuntu2_amd64.deb
       0b5411e1a24c209d1dde53394714d01d6d67e61d8fc7c7e52df009045691dc31  libss2_1.42.9-3ubuntu1.3_amd64.deb
       d16fb7a71f3fc3f5c422e36251f113fc6d8e546f02366e6d9a2dc15a5a9be66a  libss2_1.42.9-3ubuntu1_amd64.deb
-      e8df45be26d044b91717541d577f5cc065a00e432f57b25c9a781bd3c12ad5c5  libssl1.0.0_1.0.1f-1ubuntu2.26_amd64.deb
+      b0cf66bff817d2275779b1038b4d12a1119dc773f60d9e030feb06c42be03fc4  libssl1.0.0_1.0.1f-1ubuntu2.27_amd64.deb
       000043f7e6da7992c5a78160e3c49bf6a811774086dbe2f5a6063ef5a093ff0d  libssl1.0.0_1.0.1f-1ubuntu2_amd64.deb
       5e3cd1641bee44fe7f6e0b3a7104e15edfd65e350bb9e6e46480e4e29eb80f18  libstdc++-4.8-dev_4.8.2-19ubuntu1_amd64.deb
       ac8a577e160195f8788a7338b67fb56708094178f2094e1c3468299247e893ea  libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.4_amd64.deb
@@ -356,7 +356,7 @@
       9f75129e147d1d082119f44863e2a4d80224a4e74657c1fd8ad9c42b9a1e5ec1  libwind0-heimdal_1.6~git20131207+dfsg-1ubuntu1.2_amd64.deb
       c2883d497b2acb71c63ca6023bd932a33c1d6c1f5ac38136d9a8dc3d14171b6d  libwind0-heimdal_1.6~git20131207+dfsg-1ubuntu1_amd64.deb
       5af94dbfbf9d040c3193f31fff178b4615f68915e2ae6fe8725af05bbb58c433  libxtables10_1.4.21-1ubuntu1_amd64.deb
-      fd479d723c70eda0d9410a53e0d9c0a7820ca007e95bdce94155b9df6378f0e6  linux-libc-dev_3.13.0-162.212_amd64.deb
+      dc983825b75bddc03423a42ec3c7ed98e627aacfa74a8a74a3223331ed5cc622  linux-libc-dev_3.13.0-163.213_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
@@ -399,18 +399,18 @@
       19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
       3b6447136e3c4925a33cf97e58b8b079c718d8afb4d1cd8f27e76f8bfa5d35e0  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.13_amd64.deb
       d3870e5e0fc0599ce330436566b82449db07aa82fe3ce4a653130ccbb5847a85  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2_amd64.deb
-      ef469d9323f0634fb9211c0c007b699d0ca53619f1f23ade2796f2e3acaaee3d  openssl_1.0.1f-1ubuntu2.26_amd64.deb
+      6e800d8d751ba1081a0320bb95a8b143ed880c880b5a5e124fa092dd09394a30  openssl_1.0.1f-1ubuntu2.27_amd64.deb
       5e62317b9e984874c9ba8f8f7409d91957a3f88006f2f38c17560099f349e230  passwd_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
       2c03f439990da1d02e5478c5261de7b5ee6de68052f99ca74df114ad7c135bae  passwd_1%3a4.1.5.1-1ubuntu9_amd64.deb
       a99d2cfac18163722a394c8d35909c1a94f90d12206fa4c0489042bbe514c3f8  patch_2.7.1-4_amd64.deb
       82cb48a883e696768dabf3548b0825e6193fabce69065ae7e74f6edbf41c38b2  patch_2.7.1-4ubuntu2.4_amd64.deb
       a3f5612cc65883dd9f4d1c20e9e0f0eb4dccec748cc5d44b6550c7f9ce523d93  pciutils_1%3a3.2.1-1ubuntu5.1_amd64.deb
       68f8ddd5d9278f77ad6eceb850166d4a4412140d8578211c8b9862acbaa85f95  pciutils_1%3a3.2.1-1ubuntu5_amd64.deb
-      9deec59180a7b34ace0cbb3941d7cc3ced95dd8fe9cf3edb448dd9a2c9ec2250  perl-base_5.18.2-2ubuntu1.6_amd64.deb
+      9f991f1945205b65794f860cebf216a0d2ecb84d6200b72bb734fd8beb6d1baf  perl-base_5.18.2-2ubuntu1.7_amd64.deb
       ebe881258b63d39ece1ef66a1de1cc314923b8db17fdb84d4a9ec7dd6f10a4c7  perl-base_5.18.2-2ubuntu1_amd64.deb
-      5b09903af232aec1353163f4b3c1cf84636af2f027393f22617c21321291d0c9  perl-modules_5.18.2-2ubuntu1.6_all.deb
+      07a8f5810bb662d6239b15c6a5ea332fd827707aac781f574a15f813b3ca441e  perl-modules_5.18.2-2ubuntu1.7_all.deb
       4e50d0d99f67d7c8653c50245fa2298a7c4b4aacb79e1ea6e2e125c36f695b68  perl-modules_5.18.2-2ubuntu1_all.deb
-      f4f2d214415c6e4269c37d439825ce032aa9009c859a0145ba1779fd3f48a76a  perl_5.18.2-2ubuntu1.6_amd64.deb
+      a8e21bd424f266ab4482e0d60531be887f65df9801152f2b51abb93a5a4c698c  perl_5.18.2-2ubuntu1.7_amd64.deb
       862237d65872aa17af2201c5c8f7be4dddfdb5e1c620c7475fd09d4225dfadc2  perl_5.18.2-2ubuntu1_amd64.deb
       6402dfbf3750549f4cdf4a20eca50e8ae01974b310e79cc4dd7663bb14ba878b  pkg-config_0.26-1ubuntu4_amd64.deb
       b33f4203145f1833c1be76cee7cefc38922354142b96a1ffabd061aded7fb25e  plymouth_0.8.8-0ubuntu17.2_amd64.deb
