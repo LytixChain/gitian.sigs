@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
-    91253831a1d854cc103ca1abc03929bbee516f7c3d1181641b5a9f92589a7e05  lytix-1.6.3-arm-linux-gnueabihf.tar.gz
-    900c8309684bdf84f5500c73ba85d0170f9c0e60c4c58b84f801bc8a1e9384cd  lytix-1.6.3-i686-pc-linux-gnu.tar.gz
-    6270afa83cba9d30a28c1e0dbb48ee4b0ded545e2afcd9a2287609f2f40eac80  lytix-1.6.3-x86_64-linux-gnu.tar.gz
-    3fc37352bc838c934300b66da014ba591c33210eabf14dda4de6cfdc8ba6685a  src/lytix-1.6.3.tar.gz
+    d992e0bb5f9a7813ce7ac5dcfb78d9d82f5dcf27bcb3b81e320316ded9afb186  lytix-1.6.4-arm-linux-gnueabihf.tar.gz
+    047e36ac4eb842e72821e72131ce16b50656abc841833d9b28d666fbfc7331c7  lytix-1.6.4-i686-pc-linux-gnu.tar.gz
+    17793ca8b99e587c6be0492fe0923c0159b9d2b8a741952bb6f06842ecf09604  lytix-1.6.4-x86_64-linux-gnu.tar.gz
+    4f31dc7238667509a1efe145845df80c955a8816b3341f2934d00af749abcafd  src/lytix-1.6.4.tar.gz
 - in_manifest: |-
     d80631c05040d9c8ed9f916aee1c5b4683ef7e77ae99faffed049e9137b20633  lytix-linux-1.6.3-desc.yml
-    git:71147fe747c31b43308fc699156ffc80b0192ba2 lytix
+    git:d808819a89424b0a5ae04e56d586eb62239e2bf7 lytix
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

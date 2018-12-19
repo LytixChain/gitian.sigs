@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    51b1ff354c545cb35731423dfc24b8005fae78a8b37636da48a82498bb4dd67f  lytix-1.6.3-osx-unsigned.dmg
-    b60686714fc890dbdcff2e5ce789d6d41011ba4ebb13e6d8c43f820d2286ba58  lytix-1.6.3-osx-unsigned.tar.gz
-    7dd87bfbfcbfda432a6f2066169a7046754b339e4c55a11efc39dae7613f5bc9  lytix-1.6.3-osx64.tar.gz
-    45653fe61fbe3cf1679600514564a35a1a65c338cd5831607a917c1877b20c7a  src/lytix-1.6.3.tar.gz
+    4d578a3e9846ebc99f83761e3acf4cab2de942f43136582df52de430e2b5c6cb  lytix-1.6.4-osx-unsigned.dmg
+    8a20ab11bdb93a8214dca8c4412750f470f5c93bfbb783edf422b10f098effcf  lytix-1.6.4-osx-unsigned.tar.gz
+    dca602543d5563323659dc8c3b8c226e24e4a2539c30d0bb8acdccea7282a32e  lytix-1.6.4-osx64.tar.gz
+    e44ca4e761453d66e028b0a39435280103a1d4e4279556b9206f7d41c0e54fd9  src/lytix-1.6.4.tar.gz
 - in_manifest: |-
     91b8dd2efdf99590a0fcf426b5466365c345dad2a312cd204b42c0fafee2e72a  lytix-osx-1.6.3-desc.yml
     e2e269fbc20f42893d5ce97661af151db3a372a1f17eefd47cb6f57512c2664c  MacOSX10.11.sdk.tar.gz
-    git:71147fe747c31b43308fc699156ffc80b0192ba2 lytix
+    git:d808819a89424b0a5ae04e56d586eb62239e2bf7 lytix
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

@@ -1,14 +1,14 @@
 --- !!omap
 - out_manifest: |
-    378714d4ae8c17fb9610ecad30e00b507b8f746e5f2d3d5f0edcc35799c27e40  lytix-1.6.3-i686-w64-mingw32.zip
-    9d1228a3a1c6edae83df57c9763d4eb06aa035b17b11eb92183ed0da49164f41  lytix-1.6.3-win-unsigned.tar.gz
-    2842f7ea55916a31484b34657a70f6f77c6679c34e78090f9548ed440f793f84  lytix-1.6.3-win32-setup-unsigned.exe
-    82f32eb30cdb4d4364d2083255d05ae5c00bf05541c050012c744569deb8c600  lytix-1.6.3-win64-setup-unsigned.exe
-    eddc1209637d2547c8756909d6efa34b570f2357dbb2ba31c11fd8272b82ab39  lytix-1.6.3-x86_64-w64-mingw32.zip
-    45653fe61fbe3cf1679600514564a35a1a65c338cd5831607a917c1877b20c7a  src/lytix-1.6.3.tar.gz
+    0a28d44722b868ad7a71d307b0fb80c2d7f8a7481715bd340affb3ae9ad483de  lytix-1.6.4-i686-w64-mingw32.zip
+    bf4dd5f97d4a20b2423f5fd67d0e3506660799c4d72416d67017693e6d9fe011  lytix-1.6.4-win-unsigned.tar.gz
+    eba79d37e2880349f3c0bfabff53d81bfe2c9bdf23aff8d08a544e78b8b148a5  lytix-1.6.4-win32-setup-unsigned.exe
+    1292bf0f8d8493d77f4175ddc257649091f14f324600f0fb947d55c9f39fa54b  lytix-1.6.4-win64-setup-unsigned.exe
+    6c78d74e66ac1dd1936aa1d64b972530c76793d8cf0cb85cef5cdbe374db8120  lytix-1.6.4-x86_64-w64-mingw32.zip
+    e44ca4e761453d66e028b0a39435280103a1d4e4279556b9206f7d41c0e54fd9  src/lytix-1.6.4.tar.gz
 - in_manifest: |-
     5c2c5fc98b0a0efb9ee1c368f343aaf03df93b2998aff4281a3b01f749ef3f88  lytix-win-1.6.3-desc.yml
-    git:71147fe747c31b43308fc699156ffc80b0192ba2 lytix
+    git:d808819a89424b0a5ae04e56d586eb62239e2bf7 lytix
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
